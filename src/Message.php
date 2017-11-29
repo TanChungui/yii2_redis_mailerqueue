@@ -1,5 +1,5 @@
 <?php
-namespace jsoma;
+namespace jsoma\mailer;
 
 use Yii;
 

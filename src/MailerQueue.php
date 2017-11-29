@@ -1,12 +1,12 @@
 <?php
-namespace jsoma;
+namespace jsoma\mailer;
 
 use Yii;
 use yii\web\ServerErrorHttpException;
 
 class MailerQueue extends \yii\swiftmailer\Mailer
 {
-    public $messageClass = "jsoma\Message";
+    public $messageClass = "jsoma\mailer\Message";
 
     public $key = 'mails';
 
